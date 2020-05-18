@@ -1,184 +1,180 @@
+:root {
+  --green-color: #7acc2d;
+  --white-color: white;
 
+  /*Tipografia*/
 
-:root{
-    --green-color:#7acc2d;
-    --white-color:white;
-    
-    /*Tipografia*/
-    
-    /*Espaciado*/
+  /*Espaciado*/
 }
 
-
-body, html{
-    padding: 0;
-    margin: 0;
-    font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*****************************************/
-nav{
-    background: var(--green-color);
-    padding: 10px;
-    color: var(--white-color);
-    font-size: 15px;
-    font-weight: 600;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  background: var(--green-color);
+  padding: 10px;
+  color: var(--white-color);
+  font-size: 15px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.brand_image{
-    margin: 0;
-    height: 100%;
-    margin-left: 30px;
+.brand_image {
+  margin: 0;
+  height: 100%;
+  margin-left: 30px;
 }
 
+.nav_options {
+  display: flex;
 
-.nav_options{
-    display: flex;
-    
-    align-items: center;
-    margin-right: 30px;
+  align-items: center;
+  margin-right: 30px;
 }
 
-.nav_options p{
-    margin-right: 30px
+.nav_options p {
+  margin-right: 30px;
 }
 
-.nav_options p a{
-    text-decoration: none;
-    color: var(--white-color);
+.nav_options p a {
+  text-decoration: none;
+  color: var(--white-color);
 }
 
-.nav_options p a:hover{
-    color:gray;
+.nav_options p a:hover {
+  color: gray;
 }
-
 
 /***************************************/
 
-.main_section{
-    padding: 8%;
-    padding-top: 5%;
-    text-align: center;
+.main_section {
+  padding: 8%;
+  padding-top: 5%;
+  text-align: center;
 }
 
+.products {
+  background-image: url("../images/curve.png");
 
-.products{
-    background-image: url("../images/curve.png");
-    
-    height: 50px;
-    background-size: cover;
-    background-position: center top;
-    padding: 20%;
-    padding-bottom: 0;
-    
-    display: flex;
-    justify-content: center;
-    
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  padding-bottom: 0;
+
+  display: flex;
+  justify-content: center;
 }
 
-.product{
-    padding: 10px;
-    margin-top: -40%;
+.product {
+  padding: 10px;
+  margin-top: -40%;
 }
 
-.product .content{
-    background: var(--white-color);
-    padding: 15px;
-    box-shadow: 0 0 2px #c1bcbc;
+.product .content {
+  background: var(--white-color);
+  padding: 15px;
+  box-shadow: 0 0 2px #c1bcbc;
 }
 
-
-.image_content{
-    text-align: center;
-    margin: 0;
+.image_content {
+  text-align: center;
+  margin: 0;
 }
 
-.main_button{
-    background: var(--green-color);
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    color: var(--white-color);
-    border: none;
-    cursor: pointer;
-    border-radius: 2px;
+.main_button {
+  background: var(--green-color);
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
-.main_button:hover{
-    background: #5e9e22;
+.main_button:hover {
+  background: #5e9e22;
 }
-
-
 
 /*****************************************************/
 
-.caracteristicas{
-    display: flex;
-    justify-content: space-around;
-    
-    padding: 5%;
-    margin: 0;    
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+.caracteristicas {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 5%;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.caracteristica{
-    padding: 20px;
-    text-align: center;
+.caracteristica {
+  padding: 20px;
+  text-align: center;
 }
 
-.caracteristica img{
-    max-height: 100px;
+.caracteristica img {
+  max-height: 100px;
 }
 
-.caracteristica h3{
-    text-align: center
+.caracteristica h3 {
+  text-align: center;
 }
-
-
 
 /**********************************************************/
 
-.mentions{
-    margin: 80px auto;
+.mentions {
+  margin: 80px auto;
 }
 
-.mentions h2{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 900;
+.mentions h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
 }
 
-
-.grid_mentions{
-    display: flex;
-    justify-content: center;
+.grid_mentions {
+  display: flex;
+  justify-content: center;
 }
 
+.mention {
+  width: 250px;
+  height: 180px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
 
-.mention{
-    width: 250px;
-    height: 180px;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, .4);
-    
-    margin: 20px 5px;
+  margin: 20px 5px;
 }
 
-
-.mention img{
-    width: 100%;
+.mention img {
+  width: 100%;
 }
 
-.mention p{
-    margin: 5px;
+.mention p {
+  margin: 5px;
 }
 
-.mention p:nth-child(2){
-    font-weight: 800;
-    font-size: 14px;
+.mention p:nth-child(2) {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+footer {
+  background: #000;
+  color: white;
+  font-size: 17px;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
