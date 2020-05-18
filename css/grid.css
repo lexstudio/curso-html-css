@@ -8,9 +8,14 @@
   display: flex;
 }
 
+.row h1 {
+  padding-top: 50px;
+}
+
 div[class^="col"] {
   border: 1px solid blue;
   padding: 10px;
+  display: flex;
 }
 
 .col-1 {
@@ -62,16 +67,37 @@ div[class^="col"] {
 }
 
 .product-img {
-  max-width: 100%;
+  max-width: 80%;
+  margin: auto;
 }
 
+.product-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /*----------------------------------------------*/
 @media (max-width: 900px) {
   .row {
-    display: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-reverse {
+    flex-direction: column-reverse;
   }
 
   div[class^="col"] {
     width: 100%;
+  }
+
+  .product-img {
+    max-width: 80%;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    flex-direction: column;
   }
 }
