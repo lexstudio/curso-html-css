@@ -6,11 +6,11 @@
 
 .row {
   display: flex;
-  height: 30px;
 }
 
 div[class^="col"] {
   border: 1px solid blue;
+  padding: 10px;
 }
 
 .col-1 {
@@ -59,4 +59,19 @@ div[class^="col"] {
 
 .col-12 {
   width: calc(100% / 12 * 12);
+}
+
+.product-img {
+  max-width: 100%;
+}
+
+/*----------------------------------------------*/
+@media (max-width: 900px) {
+  .row {
+    display: inherit;
+  }
+
+  div[class^="col"] {
+    width: 100%;
+  }
 }
