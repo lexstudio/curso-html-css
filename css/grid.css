@@ -89,6 +89,7 @@ div[class^="col"] {
 
   div[class^="col"] {
     width: 100%;
+    padding: 0;
   }
 
   .product-img {
