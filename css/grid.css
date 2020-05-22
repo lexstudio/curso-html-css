@@ -1,6 +1,6 @@
 .container {
   max-width: 900px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: auto;
 }
 
@@ -13,7 +13,7 @@
 }
 
 div[class^="col"] {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 10px;
   display: flex;
 }
